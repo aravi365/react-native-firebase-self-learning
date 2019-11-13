@@ -8,7 +8,7 @@ import {
   ToastAndroid,
 } from 'react-native';
 
-import firebase from 'react-native-firebase';
+import firebase from '@react-native-firebase/app';
 export default class Login extends React.Component {
   state = {email: '', password: '', errorMessage: null};
   handleLogin = () => {
